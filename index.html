@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="card">
+        <form id="weatherform"> <!-- Changed class to id -->
+            <input type="text" placeholder="Enter your city" id="input">
+            <button type="submit" id="submitBtn">Search</button>
+        </form>
+        <h1 id="nameCity"></h1>
+        <p id="emoji"></p>
+        <p id="tempDisplay"></p>
+        <p id="humidityDisplay"></p>
+        <p id="desc"></p>
+        <p id="errorMsg"></p>
+    </div>
+
+    <script src="script.js"></script> <!-- Moved script tag outside of the div -->
+</body>
+</html>
